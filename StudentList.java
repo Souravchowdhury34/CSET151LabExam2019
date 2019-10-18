@@ -65,10 +65,10 @@ public class StudentList {
         {
             String  contents = LoadData();
             String wrods[] = contents.split(",");
-            boolean done = false;
+            boolean compleate = false;
             String Query = args[0].substring(1);
             System.out.println("We found it!");
-            done=true;
+            compleate=true;
             System.out.println("Data Loaded.");
         }
         //processing
