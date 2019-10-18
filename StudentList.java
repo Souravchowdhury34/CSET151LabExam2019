@@ -15,12 +15,12 @@ public class StudentList {
                 {
 			System.out.println("Loading data ...");			
 			try {
-			BufferedReader s = new BufferedReader(
+			BufferedReader newvar = new BufferedReader(
 			new InputStreamReader(
 			new FileInputStream("students.txt")
                         )
                         ); 
-			String r = s.readLine();
+			String r = newvar.readLine();
 			String i[] = r.split(",");			
 			for(String j : i) 
                         { System.out.println(j); }
